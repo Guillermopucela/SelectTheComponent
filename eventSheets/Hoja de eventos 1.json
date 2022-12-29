@@ -1,0 +1,27 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botoninicio",
+					"sid": 973620984794458
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 919915466839844,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 482405606283702
+		}
+	],
+	"sid": 591809944124874
+}
