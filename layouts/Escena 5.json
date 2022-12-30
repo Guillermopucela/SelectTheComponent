@@ -1,5 +1,5 @@
 {
-	"name": "Escena 2",
+	"name": "Escena 5",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite3",
+					"type": "Sprite10",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,16 +15,56 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 9,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 426,
-						"y": 151,
-						"width": 150.33333333333331,
-						"height": 109.56437116838285,
+						"x": 395.5,
+						"y": 188.5,
+						"width": 916,
+						"height": 445,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FondoEnMosaico5",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": -2,
+						"y": 381,
+						"width": 858,
+						"height": 100,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -44,7 +84,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 22,
 					"instanceVariables": {},
 					"behaviors": {
 						"Plataforma": {
@@ -63,8 +103,8 @@
 						}
 					},
 					"world": {
-						"x": 67,
-						"y": 332,
+						"x": 52,
+						"y": 336,
 						"width": 82,
 						"height": 75,
 						"originX": 0.5,
@@ -80,52 +120,12 @@
 					}
 				},
 				{
-					"type": "FondoEnMosaico2",
+					"type": "Texto4",
 					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 2,
-						"y": 379,
-						"width": 854.2927288229484,
-						"height": 101,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Texto2",
-					"properties": {
-						"text": "SALTA SOBRE EL COMPONENTE: TARJETA GRÁFICA",
+						"text": "Vamos!Ya casi estás en el final",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "fantasy",
+						"size": 15,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -141,13 +141,13 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 8,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 231,
-						"y": 21,
-						"width": 412,
+						"x": 261,
+						"y": 115,
+						"width": 266,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -162,7 +162,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "Sprite6",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -170,43 +170,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 16,
+					"uid": 27,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 154,
-						"y": 161,
-						"width": 170,
-						"height": 120,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite8",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 685,
-						"y": 150,
-						"width": 196,
-						"height": 106,
+						"x": 707,
+						"y": 336,
+						"width": 101,
+						"height": 87,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -220,7 +191,7 @@
 					}
 				}
 			],
-			"sid": 509247104158004,
+			"sid": 125138852329078,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -249,7 +220,7 @@
 			"global": false
 		}
 	],
-	"sid": 690330228863063,
+	"sid": 990255623700087,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -258,5 +229,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Hoja de eventos 5"
 }

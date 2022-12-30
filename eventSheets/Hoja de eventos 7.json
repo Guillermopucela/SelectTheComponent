@@ -1,0 +1,78 @@
+{
+	"name": "Hoja de eventos 7",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "fininvisible",
+					"sid": 919427997242832,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 677160686888957,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 556693095223331
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 874801195708124,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 713127234685099,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 395649213008274
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 769560700426032,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite4",
+					"sid": 347184121049156,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 935897558799323
+		}
+	],
+	"sid": 180081471778578
+}

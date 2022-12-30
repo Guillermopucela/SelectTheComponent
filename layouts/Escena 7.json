@@ -1,5 +1,5 @@
 {
-	"name": "Escena 2",
+	"name": "Escena 7",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite3",
+					"type": "Sprite14",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,16 +15,56 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 9,
+					"uid": 35,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 426,
-						"y": 151,
-						"width": 150.33333333333331,
-						"height": 109.56437116838285,
+						"x": 425.5,
+						"y": 240.5,
+						"width": 855,
+						"height": 482.99999999999994,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "FondoEnMosaico7",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 34,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 2,
+						"y": 380,
+						"width": 804,
+						"height": 100,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -44,7 +84,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 36,
 					"instanceVariables": {},
 					"behaviors": {
 						"Plataforma": {
@@ -63,8 +103,8 @@
 						}
 					},
 					"world": {
-						"x": 67,
-						"y": 332,
+						"x": 56,
+						"y": 338,
 						"width": 82,
 						"height": 75,
 						"originX": 0.5,
@@ -80,33 +120,35 @@
 					}
 				},
 				{
-					"type": "FondoEnMosaico2",
+					"type": "Texto6",
 					"properties": {
+						"text": "Enhorabuena! Ya tienes un 0,1% de conocimiento más\n\n\n                                                       FIN",
+						"enable-bbcode": true,
+						"font": "fantasy",
+						"size": 17,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
+						"origin": "top-left"
 					},
-					"uid": 6,
+					"uid": 37,
 					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 2,
-						"y": 379,
-						"width": 854.2927288229484,
-						"height": 101,
+						"x": 201,
+						"y": 28,
+						"width": 508,
+						"height": 118,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -120,19 +162,19 @@
 					}
 				},
 				{
-					"type": "Texto2",
+					"type": "Texto7",
 					"properties": {
-						"text": "SALTA SOBRE EL COMPONENTE: TARJETA GRÁFICA",
+						"text": "Puedes suicidarte aquí -->",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "fantasy",
 						"size": 12,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							1,
+							1,
+							1,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -141,13 +183,13 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 8,
+					"uid": 38,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 231,
-						"y": 21,
-						"width": 412,
+						"x": 586,
+						"y": 340,
+						"width": 200,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -162,7 +204,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "fininvisible",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -170,43 +212,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 16,
+					"uid": 39,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 154,
-						"y": 161,
-						"width": 170,
-						"height": 120,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite8",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 685,
-						"y": 150,
-						"width": 196,
-						"height": 106,
+						"x": 965.5,
+						"y": 442.5,
+						"width": 323,
+						"height": 76,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -220,7 +233,7 @@
 					}
 				}
 			],
-			"sid": 509247104158004,
+			"sid": 985546515142379,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -249,7 +262,7 @@
 			"global": false
 		}
 	],
-	"sid": 690330228863063,
+	"sid": 129168951606023,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -258,5 +271,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Hoja de eventos 7"
 }

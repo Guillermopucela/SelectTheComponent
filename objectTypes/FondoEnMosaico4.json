@@ -1,0 +1,26 @@
+{
+	"name": "FondoEnMosaico4",
+	"plugin-id": "TiledBg",
+	"sid": 251069937935765,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 749694284004233
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 200,
+		"height": 200,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 5762163,
+		"useCollisionPoly": true
+	}
+}

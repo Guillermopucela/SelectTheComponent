@@ -1,5 +1,5 @@
 {
-	"name": "Escena 2",
+	"name": "Escena 4",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,24 +7,35 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite3",
+					"type": "FondoEnMosaico4",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
 					},
-					"uid": 9,
+					"uid": 13,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
 					"world": {
-						"x": 426,
-						"y": 151,
-						"width": 150.33333333333331,
-						"height": 109.56437116838285,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 1,
+						"y": 383,
+						"width": 854,
+						"height": 97,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -44,7 +55,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 14,
 					"instanceVariables": {},
 					"behaviors": {
 						"Plataforma": {
@@ -63,8 +74,8 @@
 						}
 					},
 					"world": {
-						"x": 67,
-						"y": 332,
+						"x": 56,
+						"y": 347,
 						"width": 82,
 						"height": 75,
 						"originX": 0.5,
@@ -80,49 +91,9 @@
 					}
 				},
 				{
-					"type": "FondoEnMosaico2",
+					"type": "Texto3",
 					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 2,
-						"y": 379,
-						"width": 854.2927288229484,
-						"height": 101,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Texto2",
-					"properties": {
-						"text": "SALTA SOBRE EL COMPONENTE: TARJETA GRÁFICA",
+						"text": "SALTA SOBRE LA PLACA BASE",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -141,16 +112,74 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 8,
+					"uid": 20,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 231,
-						"y": 21,
-						"width": 412,
+						"x": 270,
+						"y": 30,
+						"width": 273,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite11",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 611,
+						"y": 148,
+						"width": 132,
+						"height": 117,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite12",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 152,
+						"y": 158,
+						"width": 130,
+						"height": 112,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -170,12 +199,12 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 16,
+					"uid": 24,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 154,
-						"y": 161,
+						"x": 382,
+						"y": 153,
 						"width": 170,
 						"height": 120,
 						"originX": 0.5,
@@ -189,38 +218,9 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Sprite8",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 685,
-						"y": 150,
-						"width": 196,
-						"height": 106,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
-			"sid": 509247104158004,
+			"sid": 934280583730546,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -249,7 +249,7 @@
 			"global": false
 		}
 	],
-	"sid": 690330228863063,
+	"sid": 714483150789891,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -258,5 +258,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Hoja de eventos 4"
 }

@@ -1,13 +1,13 @@
 {
-	"name": "Hoja de eventos 2",
+	"name": "Hoja de eventos 6",
 	"events": [
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite3",
-					"sid": 531158398384754,
+					"objectClass": "Sprite8",
+					"sid": 738361688183598,
 					"parameters": {
 						"object": "Sprite4"
 					}
@@ -17,13 +17,13 @@
 				{
 					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
-					"sid": 725788059344069,
+					"sid": 822166549056285,
 					"parameters": {
 						"which": "next"
 					}
 				}
 			],
-			"sid": 125552077599937
+			"sid": 267944331026057
 		},
 		{
 			"eventType": "block",
@@ -31,7 +31,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite7",
-					"sid": 516447725897682,
+					"sid": 841768121211461,
 					"parameters": {
 						"object": "Sprite4"
 					}
@@ -41,21 +41,21 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 743696346928844,
+					"sid": 319806644689877,
 					"parameters": {
 						"layout": "Escena 8"
 					}
 				}
 			],
-			"sid": 931224368856291
+			"sid": 436878967864450
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite8",
-					"sid": 384124445257314,
+					"objectClass": "Sprite12",
+					"sid": 574740261562036,
 					"parameters": {
 						"object": "Sprite4"
 					}
@@ -65,13 +65,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 162322163611358,
+					"sid": 557934810224067,
 					"parameters": {
 						"layout": "Escena 8"
 					}
 				}
 			],
-			"sid": 624209796412868
+			"sid": 777901098224023
 		},
 		{
 			"eventType": "block",
@@ -79,7 +79,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 684601834032351,
+					"sid": 161664001592922,
 					"parameters": {
 						"key": 39
 					}
@@ -89,13 +89,13 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite4",
-					"sid": 450767335296148,
+					"sid": 613715209295997,
 					"parameters": {
 						"state": "mirrored"
 					}
 				}
 			],
-			"sid": 378009600297156
+			"sid": 910240863459139
 		},
 		{
 			"eventType": "block",
@@ -103,7 +103,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 674780798262324,
+					"sid": 495034336645295,
 					"parameters": {
 						"key": 37
 					}
@@ -113,14 +113,14 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite4",
-					"sid": 702180693190220,
+					"sid": 951715736800653,
 					"parameters": {
 						"state": "not-mirrored"
 					}
 				}
 			],
-			"sid": 167140285135475
+			"sid": 254152142931561
 		}
 	],
-	"sid": 396592517653038
+	"sid": 101492143607606
 }
