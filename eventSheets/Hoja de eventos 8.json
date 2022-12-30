@@ -1,0 +1,27 @@
+{
+	"name": "Hoja de eventos 8",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botónreintentar",
+					"sid": 657646370360852
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 881678649170311,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 533509679010357
+		}
+	],
+	"sid": 763020665948528
+}

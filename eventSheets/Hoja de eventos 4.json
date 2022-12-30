@@ -1,13 +1,13 @@
 {
-	"name": "Hoja de eventos 2",
+	"name": "Hoja de eventos 4",
 	"events": [
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite3",
-					"sid": 531158398384754,
+					"objectClass": "Sprite11",
+					"sid": 736602965939245,
 					"parameters": {
 						"object": "Sprite4"
 					}
@@ -17,13 +17,37 @@
 				{
 					"id": "go-to-nextprevious-layout",
 					"objectClass": "System",
-					"sid": 725788059344069,
+					"sid": 594527903818331,
 					"parameters": {
 						"which": "next"
 					}
 				}
 			],
-			"sid": 125552077599937
+			"sid": 815078448099560
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite12",
+					"sid": 705196414787295,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 365327807689441,
+					"parameters": {
+						"layout": "Escena 8"
+					}
+				}
+			],
+			"sid": 352871314120030
 		},
 		{
 			"eventType": "block",
@@ -31,7 +55,7 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite7",
-					"sid": 516447725897682,
+					"sid": 760022764440897,
 					"parameters": {
 						"object": "Sprite4"
 					}
@@ -41,37 +65,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 743696346928844,
+					"sid": 103366325512157,
 					"parameters": {
 						"layout": "Escena 8"
 					}
 				}
 			],
-			"sid": 931224368856291
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite8",
-					"sid": 384124445257314,
-					"parameters": {
-						"object": "Sprite4"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 162322163611358,
-					"parameters": {
-						"layout": "Escena 8"
-					}
-				}
-			],
-			"sid": 624209796412868
+			"sid": 269800213947096
 		},
 		{
 			"eventType": "block",
@@ -79,7 +79,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 684601834032351,
+					"sid": 605685973033022,
 					"parameters": {
 						"key": 39
 					}
@@ -89,13 +89,13 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite4",
-					"sid": 450767335296148,
+					"sid": 906881406397322,
 					"parameters": {
 						"state": "mirrored"
 					}
 				}
 			],
-			"sid": 378009600297156
+			"sid": 134554934415384
 		},
 		{
 			"eventType": "block",
@@ -103,7 +103,7 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Teclado",
-					"sid": 674780798262324,
+					"sid": 386692806931616,
 					"parameters": {
 						"key": 37
 					}
@@ -113,14 +113,14 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite4",
-					"sid": 702180693190220,
+					"sid": 701308336217155,
 					"parameters": {
 						"state": "not-mirrored"
 					}
 				}
 			],
-			"sid": 167140285135475
+			"sid": 298866043105226
 		}
 	],
-	"sid": 396592517653038
+	"sid": 954100838247233
 }

@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Partículas",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
@@ -74,7 +82,35 @@
 			"Sprite4",
 			"FondoEnMosaico2",
 			"Teclado",
-			"Texto2"
+			"Texto2",
+			"Sprite3",
+			"FondoEnMosaico3",
+			"Sprite5",
+			"bien",
+			"FondoEnMosaico4",
+			"Sprite6",
+			"Sprite7",
+			"Sprite8",
+			"Sprite9",
+			"Sprite10",
+			"Texto3",
+			"Sprite11",
+			"FondoEnMosaico5",
+			"Sprite12",
+			"Sprite13",
+			"Texto4",
+			"FondoEnMosaico6",
+			"Texto5",
+			"FondoEnMosaico7",
+			"Sprite14",
+			"Texto6",
+			"Texto7",
+			"Partículas",
+			"fininvisible",
+			"Sprite15",
+			"Texto8",
+			"Botónreintentar",
+			"Texto9"
 		],
 		"subfolders": []
 	},
@@ -95,14 +131,26 @@
 	"layouts": {
 		"items": [
 			"Escena 1",
-			"Escena 2"
+			"Escena 2",
+			"Escena 3",
+			"Escena 4",
+			"Escena 5",
+			"Escena 6",
+			"Escena 7",
+			"Escena 8"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"Hoja de eventos 3",
+			"Hoja de eventos 4",
+			"Hoja de eventos 5",
+			"Hoja de eventos 6",
+			"Hoja de eventos 7",
+			"Hoja de eventos 8"
 		],
 		"subfolders": []
 	},
